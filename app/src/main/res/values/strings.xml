@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ProductsTestTask</string>
+    <string name="add_to_card_product">Add to card</string>
+    <string name="remove_from_card_product">Remove from card</string>
+    <string name="card_title">Your card</string>
+    <string name="products_title">Products</string>
 </resources>

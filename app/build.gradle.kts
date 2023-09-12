@@ -77,7 +77,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
     kapt("androidx.lifecycle:lifecycle-common-java8:2.5.0")
 
-//    // Room
+    // Room
     implementation("androidx.room:room-runtime:2.5.2")
     annotationProcessor("androidx.room:room-compiler:2.5.2")
     implementation("androidx.room:room-ktx:2.5.2")
@@ -89,12 +89,10 @@ dependencies {
     kapt("com.google.dagger:hilt-compiler:2.47")
     kapt("com.google.dagger:hilt-android-compiler:2.47")
 
-    // Accompanist
-    implementation("com.google.accompanist:accompanist-permissions:0.32.0")
-    implementation("com.google.accompanist:accompanist-navigation-material:0.32.0")
-    implementation("com.google.accompanist:accompanist-pager:0.32.0")
-    implementation("com.google.accompanist:accompanist-pager-indicators:0.32.0")
-    implementation("com.google.accompanist:accompanist-systemuicontroller:0.32.0")
+    //Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2")
 }
 
 kapt {
